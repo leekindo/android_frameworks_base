@@ -88,7 +88,7 @@ public class NetworkMonitor extends StateMachine {
     // TODO: randomize browser version ids in the default User-Agent String.
     private static final String DEFAULT_HTTPS_URL     = "https://www.google.cn/generate_204";
     private static final String DEFAULT_HTTP_URL      =
-            "http://connectivitycheck.gstatic.com/generate_204";
+            "http://www.google.cn/generate_204";
     private static final String DEFAULT_FALLBACK_URL  = "http://www.google.cn/gen_204";
     private static final String DEFAULT_USER_AGENT    = "Mozilla/5.0 (X11; Linux x86_64) "
                                                       + "AppleWebKit/537.36 (KHTML, like Gecko) "
