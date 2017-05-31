@@ -3708,6 +3708,25 @@ public final class Settings {
           * @hide
           */
          public static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
+         
+                 /**
+         * Whether the proximity sensor will adjust call to speaker
+         * @hide
+         */
+        public static final String PROXIMITY_AUTO_SPEAKER = "proximity_auto_speaker";
+
+        /**
+         * Time delay to activate speaker after proximity sensor triggered
+         * @hide
+         */
+        public static final String PROXIMITY_AUTO_SPEAKER_DELAY = "proximity_auto_speaker_delay";
+
+        /**
+         * Whether the proximity sensor will adjust call to speaker,
+         * only while in call (not while ringing on outgoing call)
+         * @hide
+         */
+        public static final String PROXIMITY_AUTO_SPEAKER_INCALL_ONLY = "proximity_auto_speaker_incall_only";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
@@ -6617,6 +6636,12 @@ public final class Settings {
          * @hide
          */
         public static final String VOLUME_LINK_NOTIFICATION = "volume_link_notification";
+
+        /**
+         * Force authorize Substratum (or equivalent) frontend calling packages by Masquerade
+         * @hide
+         */
+        public static final String FORCE_AUTHORIZE_SUBSTRATUM_PACKAGES = "force_authorize_substratum_packages";
 
         /**
          * This are the settings to be backed up.
